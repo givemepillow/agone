@@ -1,0 +1,32 @@
+[project]
+name = "since"
+version = "0.1.0"
+description = "Simple datetime wrapper."
+readme = "README.md"
+authors = [
+    { name = "Kirill Lapushinskiy", email = "kirill@lapushinskiy.ru" }
+]
+requires-python = ">=3.9"
+dependencies = [
+    "python-dateutil>=2.9.0.post0",
+]
+
+[project.scripts]
+since = "since:main"
+
+[build-system]
+requires = ["uv_build>=0.8.13,<0.9.0"]
+build-backend = "uv_build"
+
+[tool.uv.build-backend]
+module-name = "since"
+module-root = ""
+
+[[tool.uv.index]]
+name = "testpypi"
+url = "https://test.pypi.org/simple/"
+publish-url = "https://test.pypi.org/legacy/"
+explicit = true
+
+[tool.uv]
+trusted-publishing = "always"
