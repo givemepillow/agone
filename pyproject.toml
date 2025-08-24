@@ -1,5 +1,5 @@
 [project]
-name = "since"
+name = "agone"
 version = "0.1.0"
 description = "Simple datetime wrapper."
 readme = "README.md"
@@ -12,14 +12,14 @@ dependencies = [
 ]
 
 [project.scripts]
-since = "since:main"
+agone = "agone:main"
 
 [build-system]
 requires = ["uv_build>=0.8.13,<0.9.0"]
 build-backend = "uv_build"
 
 [tool.uv.build-backend]
-module-name = "since"
+module-name = "agone"
 module-root = ""
 
 [[tool.uv.index]]

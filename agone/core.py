@@ -4,7 +4,7 @@ from typing import Literal, overload, Optional, Union
 
 from dateutil.relativedelta import relativedelta
 
-from since.duration import Z, SAFE_AWARE_DATETIME_MAX, SAFE_AWARE_DATETIME_MIN
+from agone.duration import Z, SAFE_AWARE_DATETIME_MAX, SAFE_AWARE_DATETIME_MIN
 
 __all__ = (
     "to_datetime",
