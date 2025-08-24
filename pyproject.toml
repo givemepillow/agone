@@ -1,6 +1,6 @@
 [project]
 name = "recently"
-version = "0.1.0"
+version = "0.1.1"
 description = "Simple datetime wrapper."
 readme = "README.md"
 authors = [
